@@ -48,5 +48,9 @@
   .card {
     font-size: 30px;
   }
+
+  .secondpage > h4 {
+    font-size: 30px;
+  }
 }
 
