@@ -1,12 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 
-import styles from '../styles/footer.module.css';
-
 const FooterComponent: React.FC = () => {
     return (
-        <footer className={styles.footer}>
-            <h4 className={styles.h4}>Informations</h4>
+        <footer className="footer">
+            <h4 className="h4">Informations</h4>
             <div>
                 
                 <a href="https://www.linkedin.com/in/thibault-lombart/">

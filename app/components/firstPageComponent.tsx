@@ -1,7 +1,5 @@
 import React from 'react';
 
-import styles from '../styles/firstPage.module.css';
-
 import { Sedgwick_Ave, Secular_One } from "next/font/google";
 import Logo from './logo';
 
@@ -11,7 +9,7 @@ const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "
 
 const FirstPageComponent: React.FC = () => {
     return (
-        <section className={styles.firstpage}>
+        <section className="firstpage">
             <div>
                 <h1 className={secular_one.className}>Lombart Thibault</h1>
                 <h2>Junior <span className={`${sedgwick_ave.className} foreground2`}>Developper</span></h2>

@@ -66,3 +66,49 @@ a {
   transform: translateY(2px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.footer {
+  background-color: var(--background2);
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+
+.h4 {
+  font-size: 40px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.firstpage{
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
