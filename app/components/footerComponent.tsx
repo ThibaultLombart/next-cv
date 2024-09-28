@@ -14,7 +14,7 @@ const FooterComponent: React.FC = () => {
                     <p>Linkedin</p>
                 </a>
                 <a href="mailto:contact@thibault-lombart.com">
-                    <Image src="/images/mail.svg" alt="Logo Mail" width={50} height={50} />
+                    <Image src="./images/mail.svg" alt="Logo Mail" width={50} height={50} />
                     <p>Mail</p>
                 </a>
                 <a href="https://github.com/ThibaultLombart">

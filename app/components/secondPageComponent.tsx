@@ -15,7 +15,7 @@ const SecondPageComponent: React.FC = () => {
 
             <div className={styles.card}>
               <h4>HTML</h4>
-              <Image src="../images/html.svg" alt="HTML" width={100} height={100} />
+              <Image src="./images/html.svg" alt="HTML" width={100} height={100} />
             </div>
             <div className={styles.card}>
               <h4>CSS</h4>
