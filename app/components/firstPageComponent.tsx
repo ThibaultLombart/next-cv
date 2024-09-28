@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../app/ui/firstPage.module.css';
+import styles from '../styles/firstPage.module.css';
 
 import { Sedgwick_Ave, Secular_One } from "next/font/google";
 import Logo from './logo';

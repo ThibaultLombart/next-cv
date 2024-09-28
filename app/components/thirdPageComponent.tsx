@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import styles from '../app/ui/thirdPage.module.css';
+import styles from '../styles/thirdPage.module.css';
 
 const ThirdPageComponent: React.FC = () => {
     return (
@@ -12,13 +12,13 @@ const ThirdPageComponent: React.FC = () => {
           <div className={styles.card}>
             <h4>TeaEnchants</h4>
             <p>Minecraft plugin for adding new enchantments</p>
-            <Image src="/pictures/minecraft.png" alt="Plugin TeaEnchants" width={600} height={200} />
+            <Image src="./images/minecraft.png" alt="Plugin TeaEnchants" width={600} height={200} />
             <a href="https://github.com/ThibaultLombart/teaenchants" target="_blank"><button className="button">Go see on Github</button></a>
           </div>
           <div className={styles.card}>
             <h4>Portfolio</h4>
             <p>Website Portfolio made in Laravel with HTML/CSS</p>
-            <Image src="/pictures/site.png" alt="SITE" width={600} height={200} />
+            <Image src="./images/site.png" alt="SITE" width={600} height={200} />
             <a href="https://thibault-lombart.com" target="_blank"><button className="button">Go see directly</button></a>
           </div>
           

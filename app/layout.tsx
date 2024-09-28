@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./ui/globals.css";
-import FooterComponent from "@/components/footerComponent";
+import "./global/globals.css";
+import FooterComponent from "./components/footerComponent";
 
 export const metadata: Metadata = {
   title: "CV - Lombart Thibault",
