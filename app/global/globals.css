@@ -35,6 +35,13 @@ h3{
   margin: 30px;
 }
 
+/* h3 for mobile */
+@media (max-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
 a {
   color: var(--foreground2);
 }
