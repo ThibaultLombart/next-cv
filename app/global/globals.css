@@ -22,7 +22,7 @@ body {
 
 .foreground2{
   color: var(--foreground2);
-  font-family: "OCR A Extended", serif;
+  font-family: "Segoe Script", serif;
 }
 
 h1, h2{
