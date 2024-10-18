@@ -5,6 +5,8 @@ import Image from "next/image";
 
 import { TbBrandTypescript, TbBrandVue, TbBrandNuxt, TbBrandPython, TbBrandMongodb } from "react-icons/tb";
 import { SiLua, SiPostgresql, SiSelenium, SiCypress, SiRobotframework } from "react-icons/si";
+import { LiaJava } from "react-icons/lia";
+
 
 const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
 const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "400"});
@@ -53,7 +55,7 @@ export default function Home() {
 
                     <div className={`card`}>
                         <h4>Java</h4>
-                        <Image src="./images/java.svg" alt="JAVA" width={100} height={100}/>
+                        <LiaJava size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>Python</h4>
