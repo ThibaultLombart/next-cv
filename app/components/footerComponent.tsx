@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const FooterComponent: React.FC = () => {
     return (
@@ -7,13 +8,13 @@ const FooterComponent: React.FC = () => {
             <div>
                 
                 <a href="https://www.linkedin.com/in/thibault-lombart/">
-                    <p>Linkedin</p>
+                    <Image src="./images/linkedin.svg" alt="LINKEDIN" width={100} height={100} />
                 </a>
                 <a href="mailto:contact@thibault-lombart.com">
-                    <p>Mail</p>
+                    <Image src="./images/mail.svg" alt="MAIL" width={100} height={100} />
                 </a>
                 <a href="https://github.com/ThibaultLombart">
-                    <p>Github</p>
+                    <Image src="./images/github.svg" alt="GITHUB" width={100} height={100} />
                 </a>
 
             </div>
