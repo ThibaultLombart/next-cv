@@ -3,6 +3,8 @@ import React from "react";
 import { Sedgwick_Ave, Secular_One } from "next/font/google";
 import Image from "next/image";
 
+import { TbBrandTypescript, TbBrandVue, TbBrandNuxt } from "react-icons/tb";
+
 const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
 const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "400"});
 
@@ -30,15 +32,15 @@ export default function Home() {
 
                     <div className={`card`}>
                         <h4>TS</h4>
-                        <Image src="./images/typescript.svg" alt="typescript" width={100} height={100}/>
+                        <TbBrandTypescript size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>VUE</h4>
-                        <Image src="./images/vue.svg" alt="vue" width={100} height={100}/>
+                        <TbBrandVue size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>NUXT</h4>
-                        <Image src="./images/nuxt.svg" alt="nuxt" width={100} height={100}/>
+                        <TbBrandNuxt size={100}/>
                     </div>
 
                 </div>

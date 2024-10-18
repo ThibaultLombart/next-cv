@@ -19,7 +19,6 @@ export default function RootLayout({
         className={`antialiased`}
       >
         {children}
-
         <footer className="footer">
             <h4 className="h4">Informations</h4>
             <div>
