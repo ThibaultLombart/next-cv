@@ -10,14 +10,6 @@ const SecondPageComponent: React.FC = () => {
           <div className={`cardlist`}>
 
             <div className={`card`}>
-              <h4>HTML</h4>
-              <Image src="./images/html.svg" alt="HTML" width={100} height={100} />
-            </div>
-            <div className={`card`}>
-              <h4>CSS</h4>
-              <Image src="./images/css.svg" alt="CSS" width={100} height={100} />
-            </div>
-            <div className={`card`}>
               <h4>JS</h4>
               <Image src="./images/javascript.svg" alt="javascript" width={100} height={100} />
             </div>
@@ -57,10 +49,6 @@ const SecondPageComponent: React.FC = () => {
               <h4>Lua</h4>
               <Image src="./images/lua.svg" alt="LUA" width={100} height={100} />
             </div>
-            <div className={`card`}>
-              <h4>Bash</h4>
-              <Image src="./images/bash.svg" alt="BASH" width={100} height={100} />
-            </div>
 
           </div>
         </div>
@@ -76,10 +64,6 @@ const SecondPageComponent: React.FC = () => {
             <div className={`card`}>
               <h4>MongoDB</h4>
               <Image src="./images/mongodb.svg" alt="MONGODB" width={100} height={100} />
-            </div>
-            <div className={`card`}>
-              <h4>Redis</h4>
-              <Image src="./images/redis.svg" alt="REDIS" width={100} height={100} />
             </div>
 
           </div>
@@ -100,10 +84,6 @@ const SecondPageComponent: React.FC = () => {
             <div className={`card`}>
               <h4>Robot Framework</h4>
               <Image src="./images/robot.svg" alt="ROBOT FRAMEWORK" width={100} height={100} />
-            </div>
-            <div className={`card`}>
-              <h4>Appium</h4>
-              <Image src="./images/appium.svg" alt="APPIUM" width={100} height={100} />
             </div>
 
           </div>
