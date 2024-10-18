@@ -1,24 +1,19 @@
 import React from "react";
 
-import { Sedgwick_Ave, Secular_One } from "next/font/google";
 import Image from "next/image";
 
 import { TbBrandTypescript, TbBrandVue, TbBrandNuxt, TbBrandPython, TbBrandMongodb } from "react-icons/tb";
 import { SiLua, SiPostgresql, SiSelenium, SiCypress, SiRobotframework } from "react-icons/si";
 import { LiaJava } from "react-icons/lia";
 
-
-const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
-const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "400"});
-
 export default function Home() {
   return (
     <main>
         <section className="firstpage">
             <div>
-                <h1 className={secular_one.className}>Lombart Thibault</h1>
-                <h2>Junior <span className={`${sedgwick_ave.className} foreground2`}>Developper</span></h2>
-                <p>French Junior Developper. <span className={secular_one.className}>Apprenticeship</span> in Testing
+                <h1>Lombart Thibault</h1>
+                <h2>Junior <span className={`foreground2`}>Developper</span></h2>
+                <p>French Junior Developper. <span>Apprenticeship</span> in Testing
                     and Automation at <a href="https://worldline.com/fr-fr/home" target="_blank">@Worldline</a></p>
             </div>
 
@@ -135,5 +130,6 @@ export default function Home() {
             </div>
         </section>
     </main>
+
   );
 }
