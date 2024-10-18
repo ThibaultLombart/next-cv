@@ -1,15 +1,14 @@
-.list {
+.list_third {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
-.card {
+.card_third {
   background-color: var(--background2);
   color: var(--foreground);
   padding: 10px;
-  margin: 10px;
   font-size: 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -20,13 +19,12 @@
   flex-direction: column;
   gap: 10px;
   width: 50%;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 10px 10px 20px;
 }
 
 
 @media (max-width: 768px) {
-  .card {
+  .card_third {
     font-size: 30px;
     width: 90%;
   }

@@ -120,3 +120,91 @@ a {
   gap: 100px;
 }
 
+.secondpage {
+  background-color: var(--background2);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.secondpage > div {
+  border: 8px solid var(--background);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.cardlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card {
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 10px;
+  margin: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .secondpage > div {
+    width: 90%;
+  }
+  .card {
+    font-size: 30px;
+  }
+
+  .secondpage > h3 {
+    font-size: 30px;
+  }
+}
+
+.list_third {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_third {
+  background-color: var(--background2);
+  color: var(--foreground);
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin: 10px 10px 20px;
+}
+
+
+@media (max-width: 768px) {
+  .card_third {
+    font-size: 30px;
+    width: 90%;
+  }
+}
+
