@@ -1,13 +1,10 @@
 import React from 'react';
 import Image from "next/image";
-import { Secular_One } from "next/font/google";
-
-const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
 
 const SecondPageComponent: React.FC = () => {
     return (
         <section className={`secondpage`}>
-        <h2 className={secular_one.className}>Skills</h2>
+        <h2>Skills</h2>
         <div>
           <h3>Web</h3>
           <div className={`cardlist`}>
