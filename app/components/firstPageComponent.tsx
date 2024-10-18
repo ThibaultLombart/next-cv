@@ -6,7 +6,6 @@ import Logo from './logo';
 const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
 const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "400"});
 
-
 const FirstPageComponent: React.FC = () => {
     return (
         <section className="firstpage">

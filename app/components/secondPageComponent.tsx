@@ -10,10 +10,6 @@ const SecondPageComponent: React.FC = () => {
           <div className={`cardlist`}>
 
             <div className={`card`}>
-              <h4>JS</h4>
-              <Image src="./images/javascript.svg" alt="javascript" width={100} height={100} />
-            </div>
-            <div className={`card`}>
               <h4>TS</h4>
               <Image src="./images/typescript.svg" alt="typescript" width={100} height={100} />
             </div>
@@ -24,10 +20,6 @@ const SecondPageComponent: React.FC = () => {
             <div className={`card`}>
               <h4>NUXT</h4>
               <Image src="./images/nuxt.svg" alt="nuxt" width={100} height={100} />
-            </div>
-            <div className={`card`}>
-              <h4>LARAVEL</h4>
-              <Image src="./images/laravel.svg" alt="laravel" width={100} height={100} />
             </div>
 
           </div>
