@@ -3,7 +3,8 @@ import React from "react";
 import { Sedgwick_Ave, Secular_One } from "next/font/google";
 import Image from "next/image";
 
-import { TbBrandTypescript, TbBrandVue, TbBrandNuxt } from "react-icons/tb";
+import { TbBrandTypescript, TbBrandVue, TbBrandNuxt, TbBrandPython, TbBrandMongodb } from "react-icons/tb";
+import { SiLua, SiPostgresql, SiSelenium, SiCypress, SiRobotframework } from "react-icons/si";
 
 const secular_one = Secular_One({subsets: ["latin"],display: "swap", weight: "400"});
 const sedgwick_ave = Sedgwick_Ave({subsets: ["latin"],display: "swap", weight: "400"});
@@ -56,11 +57,11 @@ export default function Home() {
                     </div>
                     <div className={`card`}>
                         <h4>Python</h4>
-                        <Image src="./images/python.svg" alt="PYTHON" width={100} height={100}/>
+                        <TbBrandPython size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>Lua</h4>
-                        <Image src="./images/lua.svg" alt="LUA" width={100} height={100}/>
+                        <SiLua size={100}/>
                     </div>
 
                 </div>
@@ -72,11 +73,11 @@ export default function Home() {
 
                     <div className={`card`}>
                         <h4>SQL</h4>
-                        <Image src="./images/sql.svg" alt="SQL" width={100} height={100}/>
+                        <SiPostgresql size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>MongoDB</h4>
-                        <Image src="./images/mongodb.svg" alt="MONGODB" width={100} height={100}/>
+                        <TbBrandMongodb size={100}/>
                     </div>
 
                 </div>
@@ -88,15 +89,15 @@ export default function Home() {
 
                     <div className={`card`}>
                         <h4>Selenium</h4>
-                        <Image src="./images/selenium.svg" alt="SELENIUM" width={100} height={100}/>
+                        <SiSelenium size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>Cypress</h4>
-                        <Image src="./images/cypress.svg" alt="CYPRESS" width={100} height={100}/>
+                        <SiCypress size={100}/>
                     </div>
                     <div className={`card`}>
                         <h4>Robot Framework</h4>
-                        <Image src="./images/robot.svg" alt="ROBOT FRAMEWORK" width={100} height={100}/>
+                        <SiRobotframework size={100}/>
                     </div>
 
                 </div>

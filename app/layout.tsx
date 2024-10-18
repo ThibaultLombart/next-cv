@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: "CV éco-responsable développé en Next.js",
 };
 
+import { SiGithub, SiMaildotru, SiLinkedin } from "react-icons/si";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,15 +26,15 @@ export default function RootLayout({
             <div>
 
                 <a href="https://www.linkedin.com/in/thibault-lombart/">
-                    <Image src="./images/linkedin.svg" alt="LINKEDIN" width={100} height={100}/>
+                    <SiLinkedin size={100}/>
                     <p>Linkedin</p>
                 </a>
                 <a href="mailto:contact@thibault-lombart.com">
-                    <Image src="./images/mail.svg" alt="MAIL" width={100} height={100}/>
+                    <SiMaildotru size={100}/>
                     <p>Mail</p>
                 </a>
                 <a href="https://github.com/ThibaultLombart">
-                    <Image src="./images/github.svg" alt="GITHUB" width={100} height={100}/>
+                    <SiGithub size={100}/>
                     <p>Github</p>
                 </a>
 
