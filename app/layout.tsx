@@ -21,20 +21,19 @@ export default function RootLayout({
       >
         {children}
         <footer className="footer">
-            <h4 className="h4">Informations</h4>
             <div>
 
                 <a href="https://www.linkedin.com/in/thibault-lombart/">
                     <SiLinkedin size={100}/>
-                    <p>Linkedin</p>
+                    Linkedin
                 </a>
                 <a href="mailto:contact@thibault-lombart.com">
                     <SiMaildotru size={100}/>
-                    <p>Mail</p>
+                    Mail
                 </a>
                 <a href="https://github.com/ThibaultLombart">
                     <SiGithub size={100}/>
-                    <p>Github</p>
+                    Github
                 </a>
 
             </div>

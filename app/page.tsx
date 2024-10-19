@@ -17,9 +17,7 @@ export default function Home() {
                     and Automation at <a href="https://worldline.com/fr-fr/home" target="_blank">@Worldline</a></p>
             </div>
 
-            <div className="logo">
-                <Image src="./images/logo.png" alt="Logo Lombart Thibault" width={500} height={500}/>
-            </div>
+            <Image src="./images/logo.png" alt="Logo Lombart Thibault" width={500} height={500}/>
         </section>
 
         <section className={`secondpage`}>
