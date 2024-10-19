@@ -115,10 +115,6 @@ export default function Home() {
                     <Image src="./images/site.jpg" alt="SITE" width={600} height={200}/>
                 </a>
 
-                <a href="https://github.com/ThibaultLombart" target="_blank">
-                    <button className="button">Find out more ...</button>
-                </a>
-
             </div>
         </section>
     </main>
